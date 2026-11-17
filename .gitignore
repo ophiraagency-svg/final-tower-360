@@ -1,0 +1,29 @@
+# secrets / local tooling
+.env*
+.vercel/
+**/__pycache__/
+.DS_Store
+
+# web build output
+web/node_modules/
+web/.next/
+web/out/
+web/tsconfig.tsbuildinfo
+
+# Blender working files: heavy renders, AI outputs, logs with service responses
+_blender/*.blend
+_blender/*.blend1
+_blender/assets/
+_blender/film/
+_blender/hdri/
+_blender/keys/
+_blender/pano_photo/
+_blender/photo72/
+_blender/renders/
+_blender/seg/
+_blender/stills/
+_blender/sunra/
+_blender/v2v/
+_blender/*.txt
+_blender/*.log
+_blender/sunra_state.json
